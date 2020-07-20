@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean class="com.xworkz.spring.component.Institute" id="institute">
+	<property name="" value="" />
+	<property name="name" value="xworkz" />
+	<property name="location" value="rajaginagar" />
+	</bean>
+	
+	<bean class="com.xworkz.spring.component.Location" id="location">
+	<property name="street" value="" />
+	<property name="doorNo" value="" />
+	<property name="city" value="" />
+	</bean>
+	
+	<bean class="com.xworkz.spring.component.City" id="city">
+	<property name="name" value="Davanagere" />
+	<property name="state" value="Karnataka" />
+	<property name="diameter" value="" />
+	</bean>
+	
+	<bean class="com.xworkz.spring.component.State" id="state">
+	<property name="name" value="" />
+	<property name="unionTerriority" value="" />
+	</bean>
+</beans>
